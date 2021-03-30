@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="resume.html">Моє резюме</a></li>
+            <li>Блог
+               <ol>
+                  <li><a href="semantika.html">Семантика</a></li>
+                  <li><a href="frontend.html">Front-End</a></li>
+               </ol>
+            </li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="anketa.html">Анкета</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+
+      <form action="#" method="GET">
+
+         <fieldset>
+            <legend>Контактная информация</legend>
+            <p><label for="userName">Имя</label>
+               <input type="text" name="userName" id="userName" placeholder="Имя" title="Имя" required>
+            </p>
+            <p><label for="userTel">Телефон</label>
+               <input type="text" name="userTel" id="userTel" placeholder="Телефон" title="Телефон" required>
+            </p>
+            <p><label for="userMail">Email</label>
+               <input type="email" name="userMail" id="userMail" placeholder="Email" title="Email" required>
+            </p>
+            <p><label for="userDate">Дата посещения</label>
+               <input type="date" name="userDate" id="userDate" placeholder="Дата посещения" title="Дата посещения"
+                  required>
+            </p>
+         </fieldset>
+
+         <fieldset>
+            <legend>Персональная информация</legend>
+            <p><label for="userOld">Возраст</label>
+               <input type="number" name="userOld" id="userOld" placeholder="Возраст" title="Возраст" min="1" max="100"
+                  step="1" required>
+            </p>
+            <p><label for="kitchen">Любимая кухня </label>
+               <select name="kitchen" id="kitchen" required>
+                  <option value="Uk">Україська</option>
+                  <option value="Eu">European</option>
+                  <option value="Ru">Русская</option>
+               </select>
+            </p>
+            <p><label for="userTaste">Какие блюда вы хотели бы увидеть в меню?</label>
+               <textarea name="userTaste" id="userTaste" maxlength="200" rows="5" cols="50"></textarea>
+            </p>
+         </fieldset>
+         <fieldset>
+            <legend>Оценка нашего заведения</legend>
+            Почему Вы выбрали наще заведение?
+            <p><label><input type="radio" name="pr"> Недалеко от дома/работы</label></p>
+            <p><label><input type="radio" name="pr"> Увидел рекламу</label></p>
+            <p><label><input type="radio" name="pr"> Посоветовали</label></p>
+            <p><label><input type="radio" name="pr"> Оптимальное соотношение цены и качества</label></p>
+            Вы будете рекомендовать наше заведение своим знакомым?
+            <p><label><input type="radio" name="tx"> Да</label></p>
+            <p><label><input type="radio" name="tx"> Нет</label></p>
+         </fieldset>
+         <button>Отправить</button>
+
+      </form>
+
+   </main>
+
+
+
+
+
+</body>
+
+</html>
