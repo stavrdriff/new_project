@@ -1,15 +1,46 @@
+.container {
+   margin: 0 10% 5% 10%;
+}
 h1 {
 color: red;
 font-size: 40px;
 }
 h2 {
-color: greenyellow;
-font-size: 20px;
+color: rgb(40, 61, 9);
+font-size: 26px;
 font-weight: bold;
 }
 header nav a {
    color: #000;
+   text-decoration: none;
+}
+header nav li {
+   font-weight: bold;
+   font-size: 18px;
+   
+   list-style: none;
 }
 .colorLink {
    color: rgb(92, 4, 4);
+   text-decoration: none;
+}
+body {
+   background: #ccc;
+
+}
+.section {
+   background: rgb(226, 209, 209);
+   padding: 30px;
+   border: 1px solid #333 ;
+   border-radius: 15px;
+   width: calc(33% - 60px);
+   display: inline-block;
+   font-size: 14px;
+   letter-spacing: normal;
+   vertical-align: top;
+   text-align: left;
+}
+.blog_preview {
+font-size: 0;
+letter-spacing: -0.36em;
 }
