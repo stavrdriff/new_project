@@ -1,0 +1,15 @@
+h1 {
+color: red;
+font-size: 40px;
+}
+h2 {
+color: greenyellow;
+font-size: 20px;
+font-weight: bold;
+}
+header nav a {
+   color: #000;
+}
+.colorLink {
+   color: rgb(92, 4, 4);
+}
