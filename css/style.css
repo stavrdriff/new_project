@@ -2,13 +2,13 @@
    margin: 0 10% 5% 10%;
 }
 h1 {
-color: red;
-font-size: 40px;
+   color: red;
+   font-size: 40px;
 }
 h2 {
-color: rgb(40, 61, 9);
-font-size: 26px;
-font-weight: bold;
+   color: rgb(40, 61, 9);
+   font-size: 26px;
+   font-weight: bold;
 }
 header nav a {
    color: #000;
@@ -24,10 +24,7 @@ header nav li {
    color: rgb(92, 4, 4);
    text-decoration: none;
 }
-body {
-   background: #ccc;
 
-}
 .section {
    background: rgb(226, 209, 209);
    padding: 30px;
@@ -41,6 +38,81 @@ body {
    text-align: left;
 }
 .blog_preview {
-font-size: 0;
-letter-spacing: -0.36em;
+   font-size: 0;
+   letter-spacing: -0.36em;
+}
+.anketaCont {
+   margin: 0 auto;
+   width: 900px;
+}
+.zagAnketa {
+   font-size: 32px;
+   color: #712300;
+   text-align: center;
+}
+
+.ramka {
+   border: 1px solid #d7ffff;
+   border-radius: 8px;
+   background: #faf3ee;
+   font-size: 16px;
+   color: #712300;
+   margin: 10px auto;
+    font-weight: bold;
+}
+.left {
+   display: inline-block;
+   width: 300px;
+   height: 180px;
+   vertical-align: top;
+}
+.left p {
+   line-height: 23px;
+  
+}
+.right {
+   display: inline-block;
+   right: 180px;
+}
+.right input,
+.right select,
+.right textarea {
+   width: 300px;
+   margin: 0;
+   padding: 0;
+   text-indent: 5px;
+   border: 1px solid #bbbec2;
+}
+.right select {
+   width: 302px;  
+   border: 1px solid #bbbec2;
+}
+.right textarea {
+   height: 70px;
+  
+   padding: 0;
+   margin: 0;
+   border: 1px solid #bbbec2;
+}
+.leg {
+   text-transform: uppercase;
+   color: #7fcecd;
+   font-size: 16px;
+   font-weight: bold;
+}
+.anketaPodzag {
+   font-size: 18px;
+   font-weight: bold; 
+   color: #712300;  
+}
+.ankButton {
+   width: 135px;
+   height: 50px;
+   border: solid 1px #bbbec2;
+   border-radius: 15px;
+   color:  #712300;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   background: linear-gradient(#ffffff, #7fcecd);
 }
