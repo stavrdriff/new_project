@@ -58,7 +58,7 @@ header nav li {
    font-size: 16px;
    color: #712300;
    margin: 10px auto;
-    font-weight: bold;
+   font-weight: bold;
 }
 .left {
    display: inline-block;
@@ -67,8 +67,7 @@ header nav li {
    vertical-align: top;
 }
 .left p {
-   line-height: 23px;
-  
+   line-height: 20px;
 }
 .right {
    display: inline-block;
@@ -88,8 +87,7 @@ header nav li {
    border: 1px solid #bbbec2;
 }
 .right textarea {
-   height: 70px;
-  
+   height: 70px; 
    padding: 0;
    margin: 0;
    border: 1px solid #bbbec2;
